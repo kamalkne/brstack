@@ -1,0 +1,28 @@
+@import 'theme';
+@import 'master';
+
+brsk-header {
+    background-color: $trans-color;
+    border-bottom: 2px $text-color-1 solid;
+    color: $text-color-1;
+    height: 20px;
+    padding: 20px;
+    position: absolute;
+    text-transform: uppercase;
+    top: 0;
+    width: 100%;
+}
+
+.header-list {
+    margin-right: 20px;
+
+    span {
+        cursor: pointer;
+        padding: 10px;
+    }
+}
+
+.logo {
+    cursor: pointer;
+    font-weight: 900;
+}

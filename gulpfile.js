@@ -38,12 +38,12 @@ var devLibFiles = [
 var jsFiles = [
     'app/polyfill.js',
     'app/app.constants.js',
-    'app/app.module.js',
     'app/utility/**.utility.js',
+    'app/components/**/*.js',
+    'app/app.module.js',
     'app/behaviors/**.behavior.js',
     'app/decorators/**.decorator.js',
     'app/services/**.svc.js',
-    'app/components/**/*.js',
     'app/app.config.js'
 ];
 

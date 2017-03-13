@@ -1,0 +1,23 @@
+@import 'theme';
+@import 'master';
+
+.bstk-footer {
+    background-color: $bg-color-2;
+    color: $text-color-2;
+    font-size: $font-lg;
+    height: 100px;
+    padding-top: 20px;
+
+    span {
+        cursor: pointer;
+        margin: 0 10px;
+    }
+
+    .footer-right {
+        cursor: pointer;
+        font-size: $font-lg-1;
+        font-weight: 900;
+        padding-right: 15px;
+        text-transform: uppercase;
+    }
+}

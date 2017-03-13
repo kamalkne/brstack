@@ -1,0 +1,13 @@
+@import 'theme';
+@import 'master';
+
+// scss-lint:disable ImportantRule, VendorPrefix
+
+// Mobile
+@media (min-width: 320px) and (max-width: 767px) {
+    .feature-component {
+        width: 100% !important;
+    }
+}
+
+// scss-lint:enable ImportantRule, VendorPrefix

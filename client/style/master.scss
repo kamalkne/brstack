@@ -3,10 +3,142 @@
 html,
 head,
 body {
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1.5px;
+    margin: 0;
     overflow-x: hidden;
     width: 100%;
 }
 
-h1 {
-    color: $header-text;
+.pull-left {
+    float: left;
+}
+
+.pull-right {
+    float: right;
+}
+
+section {
+    position: relative;
+    text-align: center;
+    top: 100%;
+
+    .section-sixty {
+        height: 70vh;
+        position: relative;
+        width: 100%;
+    }
+
+    .section-forty {
+        background-color: $bg-color-3;
+        color: $text-color-1;
+        height: 45vh;
+        position: relative;
+        width: 100%;
+
+        h1 {
+            font-size: $font-lg-4;
+        }
+    }
+
+    .features-section {
+        background-color: $bg-color-2;
+        color: $text-color-2;
+
+        h1 {
+            color: $text-color-2;
+            font-size: $font-lg-4;
+        }
+    }
+
+    .vertical-center-align {
+        bottom: 0;
+        height: 70%;
+        left: 0;
+        margin: auto;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 70%;
+    }
+
+    .feature-section-center {
+        width: 100%;
+
+        .feature-component {
+            float: left;
+            width: 33%;
+
+            .feature-img {
+                cursor: pointer;
+                height: 70px;
+                transition: all .8s ease-in-out;
+                width: 70px;
+
+                &:hover {
+                    height: 85px;
+                    width: 85px;
+                }
+            }
+        }
+    }
+
+    .get-started-section {
+        background-color: $bg-color-1;
+        color: $text-color-1;
+
+        h1 {
+            font-size: $font-lg-4;
+        }
+
+        p {
+            font-size: $font-lg-1;
+        }
+    }
+}
+
+.btn {
+    border: 0;
+    border-radius: 35px;
+    cursor: pointer;
+    font-size: $font-lg;
+    font-weight: 700;
+    height: 70px;
+    padding: 15px;
+    text-transform: uppercase;
+    width: 220px;
+
+    &:hover {
+        border-radius: 45px;
+        height: 80px;
+        transition: all .8 ease-in-out;
+        width: 230px;
+    }
+}
+
+.btn-started {
+    background-color: $bg-color-2;
+    color: $text-color-2;
+}
+
+.btn-signup {
+    background-color: $bg-color-1;
+    color: $text-color-1;
+}
+
+.dash {
+    margin: 25px 0;
+    width: 70px;
+}
+
+.first-dash {
+    border-bottom: 5px solid $bg-color-1;
+}
+
+.started-dash {
+    border-bottom: 5px solid $bg-color-2;
+}
+
+.feature-dash {
+    border-bottom: 5px solid $bg-color-4;
 }
